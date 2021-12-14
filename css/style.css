@@ -1,0 +1,261 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+#header{
+    background-color: #f2f2f2;;
+}
+
+.header-div{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 128px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    width: 842px;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7d7d7d;
+}
+
+.line-list{
+    background-color: #717cff;
+    border: none;
+    height: 3px;
+    width: 23px;
+}
+
+.nav-link:hover{
+    color: #000000;
+}
+
+.header-button{
+    width: 111px;
+    height: 42px;
+    border: 2px solid #717cff;
+    border-radius: 11px;
+    display: flex;
+    padding: 10px  30px;
+}
+
+.header-button-link{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 17px;
+    color: #505050;
+}
+
+#hero {
+    background-color: #f2f2f2;;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-description {
+    width: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 56px;
+    color: #2e2e2e;
+}
+
+.hero-span {
+    color: #717cff;
+}
+
+.hero-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7d7d7d;
+    margin-bottom: 42px;
+}
+
+.hero-button {
+    width: 263px;
+    height: 64px;
+    background-color: #717cff;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.hero-button-link{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-right: 34px;  
+}
+
+.hero-site{
+    display: flex;
+    width: 120px ;
+    justify-content: space-between;
+}
+
+.media-icons{
+    width: 21px;
+    height: 21px;
+}
+
+#universities{
+    padding: 55px 0px 57px 0px;
+    background-color: #fafafa;
+}
+
+.university-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #373737;
+    opacity: 0.7;
+    margin-bottom: 94px;
+}
+
+.university-list{
+    margin-bottom: 112px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dots {
+    width: 107px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.dots-button{
+    background-color: #d2d2d2;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: none;
+}
+
+.active{
+    background-color: #717cff;
+    width: 12px;
+    height: 12px;
+}
+
+#services{
+    padding: 122px 0px 126px 0px;
+    background-color: #f2f2f2;
+}
+
+.services-title {
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+    margin-bottom: 25px;
+}
+
+.services-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7d7d7d;
+    margin-bottom: 110px;
+}
+
+.services-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.services-list-item{
+    width: 344px;
+    height: 351px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 77px rgba(0, 0, 0.8, 0.06);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.services-img{
+    margin-bottom: 30px;
+}
+
+.services-list-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474f;
+    margin-bottom: 9px;
+}
+
+.services-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: #37474fb8;
+    margin-bottom: 25px;
+}
+
+.services-button {
+    display: flex;
+    align-items: center;
+}
+
+.services-button-link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.439286px;
+    color: #717cff;
+    margin-right: 20px;
+}
