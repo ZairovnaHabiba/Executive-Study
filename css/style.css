@@ -530,8 +530,11 @@ body {
     margin-bottom: 86px;
 }
 
-.testimonal-discription {
+.testimonal-description {
     display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* width: 200px; */
     margin-bottom: 30px;
 }
 
